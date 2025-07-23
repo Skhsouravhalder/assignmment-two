@@ -382,7 +382,15 @@ footer {
 }
 .last {
   display: flex;
+  margin-left: 110px;
 }
 .end {
   display: flex;
+  margin-left: 110px;
+}
+.end-2 {
+  margin-left: 110px;
+  display: block;
+  flex-direction: row;
+  width: 100%;
 }
