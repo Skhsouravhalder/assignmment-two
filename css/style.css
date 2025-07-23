@@ -1,5 +1,205 @@
+/* shared-style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.Noto-Serif-font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.Inter-font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.containner {
+  max-width: 1140px;
+  margin: 0 auto;
+  background: rgb(245, 248, 255);
+}
+/* header menu and head */
+.header-containner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-right: 48px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.menu ul li:first-child a {
+  color: rgb(37, 36, 50);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.menu ul li:last-child a {
+  color: rgb(37, 36, 50);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+/* header - banner */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.banner-text {
+  margin-top: 56px;
+}
+.banner-title-1 {
+  font-family: Noto Serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+.banner-title-2,
+.title {
+  color: rgb(233, 90, 8);
+  font-family: Noto Serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-discreption {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 13px;
+}
+.banner-img img {
+  width: 570px;
+  height: 355px;
+  flex: 1;
+}
+/* Our Plants  secation */
+.plants-containner {
+  margin-top: 120px;
+  margin-bottom: 210px;
+}
+.Plants-title {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.title-2 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(233, 90, 8);
+}
+.Plants-discriprtion {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  justify-self: center;
+  margin-top: 16px;
+  width: 888px;
+  height: 54px;
+}
+/*plants-containner cards */
+.cards {
+  width: 270px;
+  height: 484.94px;
+  margin-top: 49px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.card-img {
+  /* width: 270px;
+  height: 322.94px; */
+}
+.card-title {
+  color: rgb(17, 17, 17);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 10px;
+}
+.card-price {
+  color: rgb(17, 17, 17);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 10px;
+}
+.card-btn {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 270px;
+  height: 50px;
+  background: rgb(233, 90, 8);
+  border: none;
+  /* padding-top: 30px; */
+  margin-top: 10px;
+}
+/* Flower & Plants Lover */
+.flower-container {
+  display: flex;
+
+  border: 2px solid;
+}
+.flower-img {
+  width: 540px;
+  height: 597px;
 }
