@@ -17,6 +17,8 @@
 .containner {
   max-width: 1140px;
   margin: 0 auto;
+}
+.bg-collor {
   background: rgb(245, 248, 255);
 }
 /* header menu and head */
@@ -339,7 +341,7 @@
   margin-top: 120px;
   background-image: url(../assets/news-letter-bg.png);
   height: 533px;
-  max-width: 1400px;
+  max-width: 100%;
 }
 .contact-part {
   align-items: center;
@@ -371,12 +373,12 @@ button {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s ease;
   width: 30%;
 }
 /* footer */
 footer {
   display: flex;
+  padding: 50px 160px 50px 160px;
 }
 .last {
   display: flex;
