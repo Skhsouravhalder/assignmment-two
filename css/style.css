@@ -390,10 +390,15 @@ button {
   width: 30%;
 }
 /* footer */
+.ft {
+  background-color: white;
+}
 footer {
   display: flex;
   /* padding: 50px 160px 50px 160px; */
-  background-color: white;
+
+  max-width: 1140px;
+  margin: auto;
 }
 .last {
   display: flex;
@@ -401,8 +406,6 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   /* width: 1440px; */
-  max-width: 1140px;
-  margin: 0 auto;
 }
 .end {
   display: flex;
