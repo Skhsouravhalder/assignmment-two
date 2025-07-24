@@ -14,12 +14,15 @@
   html {
     margin: 0px;
     overflow-x: hidden;
-    width: 100vw;
+    width: 95vw;
     /* overflow: hidden; */
+  }
+  .containner {
+    width: 95vw;
   }
   .banner {
     flex-direction: column-reverse;
-    width: 100vw;
+    width: 95vw;
   }
 
   /* header - banner */
@@ -68,13 +71,13 @@
 
   /* Our Plants  secation */
   .plants {
-    margin-bottom: 210px;
+    margin-bottom: 0px;
   }
   .plants-containner {
     margin-top: 120px;
     /* overflow-x: hidden; */
-    width: 100vw;
-    height: 1186.88px;
+    width: 95vw;
+    height: 1650px;
   }
   .Plants-title {
     color: rgb(0, 0, 0);
@@ -105,7 +108,7 @@
   }
   /*plants-containner cards */
   .cards {
-    width: 100vw;
+    width: 95vw;
     height: 484.94px;
     margin-top: 49px;
     display: grid;
@@ -153,5 +156,59 @@
   .card-img {
     width: 100%;
     height: 196.5px;
+  }
+
+  /* Flower & Plants Lover */
+
+  .flower {
+    display: flex;
+    /* height: 597px; */
+    flex-direction: column;
+    width: 95vw;
+    /* height: 396px; */
+    height: 100%;
+  }
+  .flower-img {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .flower-img img:first-child {
+    width: 100%;
+    display: block;
+  }
+  .badge-img {
+    display: none;
+  }
+  .flower-text {
+    margin-left: 0px;
+    width: 95vw;
+    padding-left: 10px;
+  }
+  .flower-title {
+    color: rgb(0, 0, 0);
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 38px;
+    width: 270px;
+    height: 33px;
+  }
+  .flower-all-text ul li p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 361px;
+    height: 51px;
+    margin-top: 20px;
+    padding-bottom: 38px;
   }
 }
