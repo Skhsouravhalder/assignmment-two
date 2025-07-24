@@ -393,21 +393,22 @@ footer {
 }
 .last {
   display: flex;
-  margin-left: 110px;
+  margin-left: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 1440px;
 }
 .end {
   display: flex;
-  margin-left: 110px;
+  margin-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .end-2 {
-  margin-left: 110px;
+  margin-left: 0px;
   display: block;
   flex-direction: row;
-  width: 100%;
+  width: 200px;
 }
 /*  */
 .last-1 img {
@@ -426,15 +427,19 @@ footer {
   height: 82px;
   margin-top: 16px;
 }
+
 .last-2 ul li {
   list-style: none;
-  padding-left: 110px;
-  padding: 10px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  width: 10vw;
 }
+
 .end-1 ul li {
   list-style: none;
-  padding-left: 110px;
-  padding: 10px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  width: 20vw;
 }
 .last-2 ul li a {
   text-decoration: none;
