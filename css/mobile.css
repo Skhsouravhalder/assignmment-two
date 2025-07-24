@@ -13,8 +13,9 @@
   body,
   html {
     margin: 0px;
-    overflow-y: hidden;
+    /* overflow-x: hidden; */
     width: 100vw;
+    /* overflow: hidden; */
   }
   .banner {
     flex-direction: column-reverse;
@@ -63,5 +64,93 @@
     width: 430px;
     height: 245px;
     flex: 1;
+  }
+
+  /* Our Plants  secation */
+  .plants {
+    margin-bottom: 210px;
+  }
+  .plants-containner {
+    margin-top: 120px;
+    /* overflow-x: hidden; */
+    width: 100vw;
+    height: 1186.88px;
+  }
+  .Plants-title {
+    color: rgb(0, 0, 0);
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+  }
+  .title-2 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+    color: rgb(233, 90, 8);
+  }
+  .Plants-discriprtion {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 336px;
+    height: 68px;
+  }
+  /*plants-containner cards */
+  .cards {
+    width: 100vw;
+    height: 484.94px;
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 28px;
+    column-gap: 20px;
+  }
+  .card {
+    width: 200px;
+    height: 329px;
+    border: 2px solid;
+  }
+
+  .card-title {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: center;
+    margin-top: 10px;
+  }
+  .card-price {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+
+    text-align: center;
+    margin-top: 10px;
+  }
+  .card-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background: rgb(233, 90, 8);
+    border: none;
+    margin-top: 10px;
+  }
+  .card-img {
+    width: 100%;
+    height: 196.5px;
   }
 }
