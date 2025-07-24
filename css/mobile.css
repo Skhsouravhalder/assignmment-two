@@ -6,4 +6,62 @@
   .hide {
     display: none;
   }
+
+  .menu ul li:nth-child(-n + 3) {
+    display: none;
+  }
+  body,
+  html {
+    margin: 0px;
+    overflow-y: hidden;
+    width: 100vw;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    width: 100vw;
+  }
+
+  /* header - banner */
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .banner-text {
+    margin-top: 56px;
+  }
+  .banner-title-1 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .banner-title-2,
+  .title {
+    color: rgb(233, 90, 8);
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .banner-discreption {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 360px;
+  }
+  .banner-img img {
+    width: 430px;
+    height: 245px;
+    flex: 1;
+  }
 }
