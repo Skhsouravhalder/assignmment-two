@@ -233,6 +233,9 @@
   text-align: left;
   margin-top: 38px;
 }
+.flower-all-text ul {
+  color: rgba(0, 0, 0, 0.5);
+}
 .flower-all-text ul li p {
   color: rgba(0, 0, 0, 0.5);
   font-family: Inter;
@@ -390,13 +393,16 @@ button {
 footer {
   display: flex;
   /* padding: 50px 160px 50px 160px; */
+  background-color: white;
 }
 .last {
   display: flex;
   margin-left: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 1440px;
+  /* width: 1440px; */
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .end {
   display: flex;
