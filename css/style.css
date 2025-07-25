@@ -387,6 +387,7 @@
   padding: 15.5px 0 15.5px 20px;
   outline: none;
   /* margin: 0 auto; */
+  border: none;
 }
 
 .form-btn {
@@ -398,6 +399,7 @@
   line-height: 19px;
   background-color: #e95a08;
   color: white;
+  border: none;
 }
 /* footer */
 .ft {
