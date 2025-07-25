@@ -20,11 +20,24 @@
   .containner {
     width: 95vw;
   }
+  .menu ul li:last-child a {
+    color: rgb(37, 36, 50);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+
+    letter-spacing: 0%;
+    width: 79px;
+    height: 24px;
+  }
   .banner {
     flex-direction: column-reverse;
     width: 98vw;
   }
-
+  .header-containner img {
+    width: 63px;
+    height: 38px;
+  }
   /* header - banner */
   .banner {
     display: flex;
