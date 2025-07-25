@@ -21,12 +21,14 @@
     width: 95vw;
   }
   .menu ul li:last-child a {
-    color: rgb(37, 36, 50);
+    /* Text/Medium/Regular */
+    color: rgb(0, 0, 0);
     font-family: Inter;
     font-size: 16px;
-    font-weight: 700;
-
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0%;
+    text-align: left;
     width: 79px;
     height: 24px;
   }
